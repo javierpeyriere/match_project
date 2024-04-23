@@ -26,6 +26,8 @@ The goal is to see if the new design leads to a better user experience and highe
 
 3# Installation: Instructions on how to install and set up the project locally. This may include dependencies that need to be installed.
 Have a look at the ERD schematic to understand how the match_project database is set up.
+Regarding the data, there is one file missing, the management table, as it contains names of managers and owners of companies. Contact me in need.
+Otherwise, you will find the link the the infogreffe data (too big to be on this repository), and the other tables are present in csv format.
 
 4# Usage: Guidelines on how to use the project. 
 Configuration or setup required: make sure you have imported the latest versions of the python librairies used in the notebook: Pandas, Seaborn, matplotlib.pyplot, sklearn, pickle, 
@@ -45,6 +47,6 @@ If you would like to contribute to the project,  report bugs, suggesting improve
 7# Credits: 
 Thanks to Andy and Elnara for their advice and insights, always there to give us a hand. Thanks to IronHack. Thanks to my mom. Thanks to Adam for thanking his mom too.
 
-8# Contact: Contact information for the project maintainers or contributors,you can contact us on our email still to be updated: javier.peyrier@gmail.com
+8# Contact: Contact information for the project maintainers or contributors,you can contact us on our email still to be updated: javier.peyriere@gmail.com
 
 9# Additional Information: N/A
