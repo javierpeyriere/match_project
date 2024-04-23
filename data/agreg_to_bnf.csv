@@ -1,0 +1,47 @@
+,bnf_names,description_division,similarity_score
+0,"Agriculture, sylviculture, pêche, élevage",Pêche et aquaculture,86
+1,"Espaces verts, jardineries et animaleries",Pêche et aquaculture,86
+2,Industrie et distribution alimentaires,"Culture et production animale, chasse et services annexes",86
+3,"Boissons, vins et spiritueux","Culture et production animale, chasse et services annexes",86
+4,Industries extractives (hors énergie),Industries alimentaires,86
+5,"Industries textiles, habillement, cuir",Industries alimentaires,86
+6,"Bijouterie, horlogerie, orfèvrerie",Industrie chimique,45
+7,Industries du bois (hors meubles),"Travail du bois et fabrication d'articles en bois et en liège, à l'exception des meubles ; fabrication d'articles en vannerie et sparterie",86
+8,"Papier, carton, imprimerie",Imprimerie et reproduction d'enregistrements,86
+9,Emballage,Métallurgie,63
+10,Industries chimiques et parachimiques,"Culture et production animale, chasse et services annexes",86
+11,Produits d'hygiène parfums et cosmétiques,Pêche et aquaculture,86
+12,Parapharmacie,Industrie pharmaceutique,62
+13,Industrie pharmaceutique. Médicament. Biotechnologies,Industrie pharmaceutique,90
+14,Métallurgie et travail des métaux,Métallurgie,90
+15,Biens d'équipement industriels (hors électronique),Extraction d'hydrocarbures,86
+16,"Matériels de précision, optique, mesure",Fabrication de boissons,86
+17,Matériels de transport. Défense,Services de soutien aux industries extractives,86
+18,Automobile,Industrie automobile,90
+19,"Equipement de la maison, mobilier professionnel",Fabrication de boissons,86
+20,"Jouets, cadeaux",Fabrication de produits à base de tabac,54
+21,Artisanat et métiers d'art,"Culture et production animale, chasse et services annexes",86
+22,Luxe,Industrie automobile,60
+23,Construction,Construction de bâtiments,90
+24,Second oeuvre,Imprimerie et reproduction d'enregistrements,56
+25,"Commerce, distribution","Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné",86
+26,Réseaux et franchise,"Culture et production animale, chasse et services annexes",86
+27,Vente à distance et e-commerce,"Culture et production animale, chasse et services annexes",86
+28,Commerce équitable,Commerce et réparation d'automobiles et de motocycles,86
+29,Commerce international. Import-export,"Commerce de gros, à l'exception des automobiles et des motocycles",86
+30,Tourisme,Activités de poste et de courrier,60
+31,CHR (Café Hôtellerie Restauration),Restauration,90
+32,Restauration,Restauration,100
+33,Hébergement,Hébergement,100
+34,"Transports, logistiques, services postaux",Transports par eau,86
+35,"TIC. Informatique, télécoms et réseaux","Culture et production animale, chasse et services annexes",86
+36,Biens d'équipement télécoms et électroniques,Pêche et aquaculture,86
+37,"Téléphonie, réseaux et services en ligne","Culture et production animale, chasse et services annexes",86
+38,Conseil et prestations informatiques,"Culture et production animale, chasse et services annexes",86
+39,"Medias, industries culturelles et arts","Culture et production animale, chasse et services annexes",86
+40,Livre et édition électronique,Édition,90
+41,Presse et radio,"Culture et production animale, chasse et services annexes",86
+42,"Cinéma, TV, vidéo, jeux vidéo","Production de films cinématographiques, de vidéo et de programmes de télévision ; enregistrement sonore et édition musicale",86
+43,Musique,Industrie chimique,64
+44,Spectacle vivant,"Activités créatives, artistiques et de spectacle",86
+45,Autres activités liées à l'art,"Travail du bois et fabrication d'articles en bois et en liège, à l'exception des meubles ; fabrication d'articles en vannerie et sparterie",86

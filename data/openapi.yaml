@@ -1,0 +1,188 @@
+openapi: "3.0.0"
+info:
+  title: Match Project dataset API
+  description: >
+    This API exposes the Match Project dataset. It is a mix of four data sources:
+    * The infogreffe opendata ; https://opendata.datainfogreffe.fr/explore/dataset/chiffres-cles-2022/.
+    * Smaller tables summarizing the Codes APE that classifies the companies depending on their activity. from https://www.insee.fr/fr/information/2028155. There are 21 sections, 88 divisions, 272 groups, 615 classes, and 732 sub-classes. We use principally the divisions and sub-classes.
+    * Flat data summarizing some general information and key economical indicators for companies in the Ile de France Region. It gathers the information of about 17,000 companies. These key indicators would be used for machine learning.
+    * A list of websites from the BnF ( https://bnf.libguides.com/signets_prisme/sectoriels ) where there is an inventory of corporation or associations corresponding to the BnF classification. In the project a first junction table with the Divisions mentioned above has been made, however improvements are  underworks.
+    
+    The API only enables to get some basic information about the companies (general and declared revenues/incomes. For more access let me know.
+  contact:
+    email: javier.peyriere@gmail.com
+  license:
+    name: N/A
+    url: N/A
+  version: 1.0.0
+paths:
+  /code_ape:
+    get:
+      summary: Get company information by code APE
+      description: |
+        Returns company information based on the given code APE (Activity Principal Establishment).
+      parameters:
+        - name: include_details
+          in: query
+          description: Include detailed information of companies
+          schema:
+            type: integer
+            format: int32
+            default: 0
+        - name: ape_number
+          in: query
+          description: Code APE to filter companies
+          schema:
+            type: string
+            default: "7022Z"
+        - name: department
+          in: query
+          description: Department number to filter companies
+          schema:
+            type: string
+            default: "75"
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company_1:
+                    type: object
+                    description: Information of the first company
+                    properties:
+                      siren:
+                        type: string
+                      denomination:
+                        type: string
+                      code_ape:
+                        type: string
+                      libelle_ape:
+                        type: string
+                      adresse:
+                        type: string
+                      code_postal:
+                        type: string
+                      ville:
+                        type: string
+                      avg_workforce:
+                        type: string
+                      rev_in_10_million:
+                        type: string
+                      op_inc_percent:
+                        type: string
+                      dep_percent:
+                        type: string
+                      borrowed:
+                        type: string
+                      cash_percent:
+                        type: string
+                      secure_investment_percent:
+                        type: string
+
+        "404":
+          description: Company not found
+  /siren/{siren_num}:
+    get:
+      summary: Get company information by SIREN number
+      description: Returns company information based on the given SIREN number.
+      parameters:
+        - name: siren_num
+          in: path
+          description: SIREN number of the company
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  siren:
+                    type: string
+                  denomination:
+                    type: string
+                  code_ape:
+                    type: string
+                  libelle_ape:
+                    type: string
+                  adresse:
+                    type: string
+                  code_postal:
+                    type: string
+                  ville:
+                    type: string
+                  avg_workforce:
+                    type: string
+                  rev_in_10_million:
+                    type: string
+                  op_inc_percent:
+                    type: string
+                  dep_percent:
+                    type: string
+                  borrowed:
+                    type: string
+                  cash_percent:
+                    type: string
+                  secure_investment_percent:
+                    type: string
+        "404":
+          description: Company not found
+  /company:
+    get:
+      summary: Get company information by name
+      description: Returns company information based on the given company name.
+      parameters:
+        - name: name
+          in: query
+          description: Part of the company name to search for
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company_1:
+                    type: object
+                    description: Information of the first company
+                    properties:
+                      siren:
+                        type: string
+                      denomination:
+                        type: string
+                      code_ape:
+                        type: string
+                      libelle_ape:
+                        type: string
+                      adresse:
+                        type: string
+                      code_postal:
+                        type: string
+                      ville:
+                        type: string
+                      avg_workforce:
+                        type: string
+                      rev_in_10_million:
+                        type: string
+                      op_inc_percent:
+                        type: string
+                      dep_percent:
+                        type: string
+                      borrowed:
+                        type: string
+                      cash_percent:
+                        type: string
+                      secure_investment_percent:
+                        type: string
+
+        "404":
+          description: Company not found
