@@ -1,1 +1,2 @@
-To create the folder
+Here you have the different notebooks used to gather the data, upload it, clean it, wrangle it and generate tables to import in the MySQL data base
+You will also find the ones use for getting data from an API (pappers.fr), to create a flask api, and data web scrapping.
