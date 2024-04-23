@@ -26,7 +26,7 @@ The exercise is to apply our learnings in EDA and Data Cleaning Performance Metr
 The goal is to see if the new design leads to a better user experience and higher process completion rates.
 
 3# Installation: Instructions on how to install and set up the project locally. This may include dependencies that need to be installed.
-Have a look at the ERD schematic to understand how the match_project database is set up.
+Have a look at the ERD schematic to understand how the match_project database is set up. You can also look at the report in the ressources.
 Regarding the data, there is one file missing, the management table, as it contains names of managers and owners of companies. Contact me in need.
 Otherwise, you will find the link the the infogreffe data (too big to be on this repository), and the other tables are present in csv format.
 
