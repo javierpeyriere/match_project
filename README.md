@@ -16,6 +16,7 @@ When you are planning to open a business, when you are already running a busines
 -	Your potential partners, would it be possible to join forces?
 -	How good the others are doing
 -	If you need to expand, with whom to talk to?
+-	
 In particular for entrepreneurs and SMEs. You always need to rely on experts and go through consultancy. Similarly, for bigger actors, companies that need to expand externally, it is always a challenge to identify a suitable possible target. In this case also we rely on experts and professionals to do the work for us.
 The idea of the project is to make a tool to help, for possible market analysis, to get first answers and directions in identifying companies depending on the activities and size. Identifying key companies so you get a better grasp of the market you want to work in , or for possible partnerships. 
 From multisource data (Infogreffe, Cap-Fi, pappers, BnF, Insee…) and combining them, the idea is to be able to narrow down a starting point for more investigation and… more data gathering.
